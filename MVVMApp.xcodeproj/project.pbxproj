@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AAE552D275B9A490086C2C6 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE552C275B9A490086C2C6 /* Character.swift */; };
+		4AAE5530275B9B3C0086C2C6 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE552F275B9B3C0086C2C6 /* CharactersViewModel.swift */; };
 		4AC6AFD2275AB2920082D392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6AFD1275AB2920082D392 /* AppDelegate.swift */; };
 		4AC6AFD4275AB2920082D392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6AFD3275AB2920082D392 /* SceneDelegate.swift */; };
 		4AC6AFD6275AB2920082D392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6AFD5275AB2920082D392 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AAE552C275B9A490086C2C6 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4AAE552F275B9B3C0086C2C6 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
 		4AC6AFCE275AB2920082D392 /* MVVMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC6AFD1275AB2920082D392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC6AFD3275AB2920082D392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AAE552E275B9AFA0086C2C6 /* CharacterInfos */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE552C275B9A490086C2C6 /* Character.swift */,
+			);
+			path = CharacterInfos;
+			sourceTree = "<group>";
+		};
 		4AC6AFC5275AB2920082D392 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +68,49 @@
 		4AC6AFD0275AB2920082D392 /* MVVMApp */ = {
 			isa = PBXGroup;
 			children = (
-				4AC6AFD1275AB2920082D392 /* AppDelegate.swift */,
-				4AC6AFD3275AB2920082D392 /* SceneDelegate.swift */,
-				4AC6AFD5275AB2920082D392 /* ViewController.swift */,
+				4AC6AFE8275AB2B80082D392 /* Delegates */,
+				4AC6AFE7275AB2AD0082D392 /* ViewModel */,
+				4AC6AFE6275AB2A50082D392 /* View */,
+				4AC6AFE5275AB2A00082D392 /* Model */,
 				4AC6AFD7275AB2920082D392 /* Main.storyboard */,
 				4AC6AFDA275AB2930082D392 /* Assets.xcassets */,
 				4AC6AFDC275AB2930082D392 /* LaunchScreen.storyboard */,
 				4AC6AFDF275AB2930082D392 /* Info.plist */,
 			);
 			path = MVVMApp;
+			sourceTree = "<group>";
+		};
+		4AC6AFE5275AB2A00082D392 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE552E275B9AFA0086C2C6 /* CharacterInfos */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AC6AFE6275AB2A50082D392 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6AFD5275AB2920082D392 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AC6AFE7275AB2AD0082D392 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE552F275B9B3C0086C2C6 /* CharactersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4AC6AFE8275AB2B80082D392 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6AFD3275AB2920082D392 /* SceneDelegate.swift */,
+				4AC6AFD1275AB2920082D392 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +187,8 @@
 				4AC6AFD6275AB2920082D392 /* ViewController.swift in Sources */,
 				4AC6AFD2275AB2920082D392 /* AppDelegate.swift in Sources */,
 				4AC6AFD4275AB2920082D392 /* SceneDelegate.swift in Sources */,
+				4AAE552D275B9A490086C2C6 /* Character.swift in Sources */,
+				4AAE5530275B9B3C0086C2C6 /* CharactersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
