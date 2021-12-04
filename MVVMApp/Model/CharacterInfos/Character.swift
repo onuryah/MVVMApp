@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 
 struct Characters{
-    let image = UIImage()
-    let power = Double()
-    let place = String()
-    let name = String()
-    let utterance = String()
+    let image : UIImage
+    let power : Double
+    let place : String
+    let name : String
+    let utterance : String
 }
