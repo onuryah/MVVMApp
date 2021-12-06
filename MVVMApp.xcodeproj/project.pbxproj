@@ -17,6 +17,8 @@
 		4AC6AFD9275AB2920082D392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6AFD7275AB2920082D392 /* Main.storyboard */; };
 		4AC6AFDB275AB2930082D392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6AFDA275AB2930082D392 /* Assets.xcassets */; };
 		4AC6AFDE275AB2930082D392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6AFDC275AB2930082D392 /* LaunchScreen.storyboard */; };
+		4ADA71C9275E3A6D002C8BEB /* AddingCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA71C8275E3A6D002C8BEB /* AddingCharactersViewModel.swift */; };
+		4ADA71CC275E5537002C8BEB /* getDataFromMVModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA71CB275E5537002C8BEB /* getDataFromMVModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		4AC6AFDA275AB2930082D392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AC6AFDD275AB2930082D392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AC6AFDF275AB2930082D392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADA71C8275E3A6D002C8BEB /* AddingCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCharactersViewModel.swift; sourceTree = "<group>"; };
+		4ADA71CB275E5537002C8BEB /* getDataFromMVModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDataFromMVModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				4AAE552F275B9B3C0086C2C6 /* CharactersViewModel.swift */,
+				4ADA71C8275E3A6D002C8BEB /* AddingCharactersViewModel.swift */,
+				4ADA71CB275E5537002C8BEB /* getDataFromMVModelView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				4AC6AFD2275AB2920082D392 /* AppDelegate.swift in Sources */,
 				4AC6AFD4275AB2920082D392 /* SceneDelegate.swift in Sources */,
 				4AAE5536275B9FD80086C2C6 /* TableViewCell.swift in Sources */,
+				4ADA71CC275E5537002C8BEB /* getDataFromMVModelView.swift in Sources */,
+				4ADA71C9275E3A6D002C8BEB /* AddingCharactersViewModel.swift in Sources */,
 				4AAE552D275B9A490086C2C6 /* Character.swift in Sources */,
 				4AAE5530275B9B3C0086C2C6 /* CharactersViewModel.swift in Sources */,
 			);

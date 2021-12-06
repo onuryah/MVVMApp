@@ -11,7 +11,7 @@ import UIKit
 struct Characters{
     let image : UIImage
     let power : Double
-    let place : String
+    let role : String
     let name : String
     let utterance : String
 }
