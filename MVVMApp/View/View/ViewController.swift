@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     @IBOutlet weak var tableView: UITableView!
     var characterListViewModel : CharacterListViewModel!
     
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         registerCell()
         setTableView()
         tableView.reloadData()
-        getDataFromMV()
+        self.characterListViewModel = ReturnDataFromMV().returnDataFromMV()
     }
     fileprivate func registerCell(){
         let cellNib = UINib(nibName: "TableViewCell", bundle: nil)

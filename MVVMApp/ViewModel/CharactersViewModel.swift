@@ -32,7 +32,7 @@ struct CharacterViewModel{
         return self.character.role
     }
     
-    var power : Double{
+    var power : Int{
         return self.character.power
     }
     

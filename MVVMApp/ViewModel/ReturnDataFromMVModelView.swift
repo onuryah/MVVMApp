@@ -7,9 +7,11 @@
 
 import Foundation
 
-struct GetDataFromMV{
-    func getDataFromMV(){
+
+
+struct ReturnDataFromMV{
+    func returnDataFromMV() -> CharacterListViewModel{
         let myArray = DataRouter().addCharacter()
-        let seconArray = CharacterListViewModel(characterList: myArray)
+        return CharacterListViewModel(characterList: myArray)
     }
 }
